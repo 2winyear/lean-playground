@@ -51,3 +51,5 @@ def fun2 : Nat → (Nat → Nat) := fun(x : Nat) => (double : Nat → Nat)
 #check (1 : Nat)
 -- #check (0 : 1) 1은 유형이 아니다. 0과 1은 같은 유형이 아님
 #check (Nat : Type) -- 모든 유형은 1개만 가진다.
+
+#check (1 : Nat)
